@@ -40,6 +40,11 @@ public class SRMResultVC: UIViewController {
     func SRMLabelTextStyle(){
 //        SRMNumLabel.
     }
+    @IBAction func goTofirstView(_ sender: Any) {
+        let mainStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let vc : UIViewController = mainStoryboard.instantiateViewController(withIdentifier: "firstVC") as UIViewController
+        self.present(vc, animated: true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation

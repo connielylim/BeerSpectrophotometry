@@ -11,7 +11,7 @@
         <!--CaptureVC-->
         <scene sceneID="S33-VC-ffw">
             <objects>
-                <viewController id="SGA-kp-UVU" customClass="CaptureVC" customModule="Spectrum_Brewing" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="firstVC" id="SGA-kp-UVU" customClass="CaptureVC" customModule="Spectrum_Brewing" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m4L-6r-A7t">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,7 +66,6 @@
         <!--ResultVC-->
         <scene sceneID="eye-OS-cNO">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1Vd-Hj-YAo" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="SRMVC" id="fi0-GB-tOf" customClass="SRMResultVC" customModule="Spectrum_Brewing" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rZP-yP-mHo">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -116,7 +115,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="SGA-kp-UVU" kind="push" id="oxV-ek-s7e"/>
+                                    <action selector="goTofirstView:" destination="fi0-GB-tOf" eventType="touchUpInside" id="0wr-Rv-H6b"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -129,6 +128,7 @@
                         <outlet property="pickerBeerTypeSRM" destination="Scq-q6-vgi" id="LMO-mA-A7P"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Vd-Hj-YAo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1681" y="165"/>
         </scene>
