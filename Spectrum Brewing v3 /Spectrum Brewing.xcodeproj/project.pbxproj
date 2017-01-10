@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F900DB1D1DB55A27003981AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F900DB1C1DB55A27003981AF /* AppDelegate.swift */; };
+		F900DB1F1DB55A27003981AF /* CaptureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F900DB1E1DB55A27003981AF /* CaptureVC.swift */; };
+		F900DB241DB55A27003981AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F900DB231DB55A27003981AF /* Assets.xcassets */; };
+		F91777B31DBC607F00FB3498 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91777B21DBC607F00FB3498 /* ColorUtils.swift */; };
+		F9350A1D1DF8C37C00CE6595 /* Default-568h@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = F9350A1C1DF8C37C00CE6595 /* Default-568h@2x.gif */; };
+		F9D14DBA1DDD5C6E0029BD58 /* SRMResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D14DB91DDD5C6E0029BD58 /* SRMResultVC.swift */; };
+		F9D28EDE1DE2990600D91FA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D28EDD1DE2990600D91FA1 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F900DB191DB55A27003981AF /* Spectrum Brewing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spectrum Brewing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F900DB1C1DB55A27003981AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F900DB1E1DB55A27003981AF /* CaptureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureVC.swift; sourceTree = "<group>"; };
+		F900DB231DB55A27003981AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F900DB281DB55A27003981AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F91777B21DBC607F00FB3498 /* ColorUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
+		F9350A1C1DF8C37C00CE6595 /* Default-568h@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Default-568h@2x.gif"; sourceTree = "<group>"; };
+		F9D14DB91DDD5C6E0029BD58 /* SRMResultVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRMResultVC.swift; sourceTree = "<group>"; };
+		F9D28EDD1DE2990600D91FA1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F900DB161DB55A27003981AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F900DB101DB55A27003981AF = {
+			isa = PBXGroup;
+			children = (
+				F9350A1C1DF8C37C00CE6595 /* Default-568h@2x.gif */,
+				F900DB1B1DB55A27003981AF /* Spectrum Brewing */,
+				F900DB1A1DB55A27003981AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F900DB1A1DB55A27003981AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F900DB191DB55A27003981AF /* Spectrum Brewing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F900DB1B1DB55A27003981AF /* Spectrum Brewing */ = {
+			isa = PBXGroup;
+			children = (
+				F900DB1C1DB55A27003981AF /* AppDelegate.swift */,
+				F91777B21DBC607F00FB3498 /* ColorUtils.swift */,
+				F900DB1E1DB55A27003981AF /* CaptureVC.swift */,
+				F9D14DB91DDD5C6E0029BD58 /* SRMResultVC.swift */,
+				F9D28EDD1DE2990600D91FA1 /* Main.storyboard */,
+				F900DB231DB55A27003981AF /* Assets.xcassets */,
+				F900DB281DB55A27003981AF /* Info.plist */,
+			);
+			path = "Spectrum Brewing";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F900DB181DB55A27003981AF /* Spectrum Brewing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F900DB2B1DB55A27003981AF /* Build configuration list for PBXNativeTarget "Spectrum Brewing" */;
+			buildPhases = (
+				F900DB151DB55A27003981AF /* Sources */,
+				F900DB161DB55A27003981AF /* Frameworks */,
+				F900DB171DB55A27003981AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spectrum Brewing";
+			productName = "Spectrum Brewing";
+			productReference = F900DB191DB55A27003981AF /* Spectrum Brewing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F900DB111DB55A27003981AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Capstone Fall 2016";
+				TargetAttributes = {
+					F900DB181DB55A27003981AF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 943LP787R7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F900DB141DB55A27003981AF /* Build configuration list for PBXProject "Spectrum Brewing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F900DB101DB55A27003981AF;
+			productRefGroup = F900DB1A1DB55A27003981AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F900DB181DB55A27003981AF /* Spectrum Brewing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F900DB171DB55A27003981AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D28EDE1DE2990600D91FA1 /* Main.storyboard in Resources */,
+				F9350A1D1DF8C37C00CE6595 /* Default-568h@2x.gif in Resources */,
+				F900DB241DB55A27003981AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F900DB151DB55A27003981AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91777B31DBC607F00FB3498 /* ColorUtils.swift in Sources */,
+				F9D14DBA1DDD5C6E0029BD58 /* SRMResultVC.swift in Sources */,
+				F900DB1F1DB55A27003981AF /* CaptureVC.swift in Sources */,
+				F900DB1D1DB55A27003981AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F900DB291DB55A27003981AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				NEW_SETTING = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F900DB2A1DB55A27003981AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				NEW_SETTING = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F900DB2C1DB55A27003981AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 943LP787R7;
+				INFOPLIST_FILE = "Spectrum Brewing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "connie.Spectrum-Brewing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F900DB2D1DB55A27003981AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 943LP787R7;
+				INFOPLIST_FILE = "Spectrum Brewing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "connie.Spectrum-Brewing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F900DB141DB55A27003981AF /* Build configuration list for PBXProject "Spectrum Brewing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F900DB291DB55A27003981AF /* Debug */,
+				F900DB2A1DB55A27003981AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F900DB2B1DB55A27003981AF /* Build configuration list for PBXNativeTarget "Spectrum Brewing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F900DB2C1DB55A27003981AF /* Debug */,
+				F900DB2D1DB55A27003981AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F900DB111DB55A27003981AF /* Project object */;
+}
